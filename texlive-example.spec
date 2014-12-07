@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-example
 Version:	20140408
-Release:	2
+Release:	3
 Summary:	Typeset examples for TeX courses
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex209/contrib/misc/example.sty
