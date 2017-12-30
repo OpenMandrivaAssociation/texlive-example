@@ -5,8 +5,8 @@
 # catalog-license gpl
 # catalog-version undef
 Name:		texlive-example
-Version:	20140408
-Release:	4
+Version:	20170414
+Release:	1
 Summary:	Typeset examples for TeX courses
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex209/contrib/misc/example.sty
