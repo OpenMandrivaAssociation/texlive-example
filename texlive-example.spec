@@ -1,17 +1,11 @@
-# revision 33398
-# category Package
-# catalog-ctan /macros/latex209/contrib/misc/example.sty
-# catalog-date 2014-04-08 11:06:38 +0200
-# catalog-license gpl
-# catalog-version undef
 Name:		texlive-example
-Version:	20190228
+Version:	33398
 Release:	1
 Summary:	Typeset examples for TeX courses
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex209/contrib/misc/example.sty
 License:	GPL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/example.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/example.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -23,12 +17,12 @@ It provides an example environment, which typesets its contents
 on the left of the page, and prints it verbatim on the right.
 
 %post
-    %{_sbindir}/texlive.post
+%{_sbindir}/texlive.post
 
 %postun
-    if [ $1 -eq 0 ]; then
+if [ $1 -eq 0 ]; then
 	%{_sbindir}/texlive.post
-    fi
+fi
 
 #-----------------------------------------------------------------------
 %files
@@ -36,7 +30,7 @@ on the left of the page, and prints it verbatim on the right.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0
+%autosetup -p1 -c
 
 %build
 
