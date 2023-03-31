@@ -1,6 +1,6 @@
 Name:		texlive-example
 Version:	33398
-Release:	1
+Release:	2
 Summary:	Typeset examples for TeX courses
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex209/contrib/misc/example.sty
