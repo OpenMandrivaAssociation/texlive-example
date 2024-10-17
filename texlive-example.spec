@@ -3,7 +3,7 @@ Version:	33398
 Release:	2
 Summary:	Typeset examples for TeX courses
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex209/contrib/misc/example.sty
+URL:		https://www.ctan.org/tex-archive/macros/latex209/contrib/misc/example.sty
 License:	GPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/example.r%{version}.tar.xz
 BuildArch:	noarch
